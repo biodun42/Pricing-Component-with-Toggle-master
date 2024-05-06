@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(240, 78%, 98%);
+  background-image: url(../images/bg-top.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top right;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* margin-bottom: 4rem; */
+}
+.header {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.header h1 {
+  /* font-size: 15px; */
+  color: hsl(233, 13%, 49%);
+  text-align: center;
+}
+.switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.switch p {
+  color: hsl(232, 13%, 33%);
+  opacity: 0.5;
+}
+.toggle-master {
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  width: 65px;
+  height: 20px;
+  border-radius: 20px;
+  padding: 1rem 0 1rem 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 7px;
+}
+.toggle-master button {
+  border-radius: 50%;
+  padding: 12px;
+  border: none;
+}
+.toggle-master button:hover {
+  cursor: pointer;
+}
+  .toggle-master button:nth-child(1) {
+    background-color: hsl(240, 78%, 98%);
+  }
+  .toggle-master button:nth-child(2) {
+    background-color: black;
+    margin-left: 1.9rem;
+    display: none;
+  }
+.all-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 300px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.card p {
+  color: hsl(232, 13%, 33%);
+  opacity: 0.9;
+}
+.card h1 {
+  font-size: 50px;
+  color: hsl(232, 13%, 33%);
+}
+.card hr {
+  width: 100%;
+  border: 1px solid hsl(233, 13%, 49%);
+  opacity: 0.2;
+}
+.card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.card ul hr {
+  width: 100%;
+  border: 1px solid hsl(233, 13%, 49%);
+  opacity: 0.2;
+}
+.card ul li {
+  color: hsl(232, 13%, 33%);
+  opacity: 0.9;
+  font-size: 15px;
+}
+.card button {
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  padding: 0.5rem;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid transparent;
+}
+.card button:hover {
+  cursor: pointer;
+  background-color: white;
+  background-image: none;
+  color: hsl(236, 72%, 79%);
+  border: 1px solid hsl(236, 72%, 79%);
+}
+.card1 {
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  border-radius: 10px;
+  padding: 3rem 2rem 3rem 2rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.card1 p {
+  color: hsl(240, 78%, 98%);
+  opacity: 0.9;
+}
+.card1 h1 {
+  font-size: 50px;
+  color: hsl(240, 78%, 98%);
+}
+.card1 hr {
+  width: 100%;
+  border: 1px solid hsl(240, 78%, 98%);
+  opacity: 0.2;
+}
+.card1 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.card1 ul hr {
+  width: 100%;
+  border: 1px solid hsl(233, 13%, 49%);
+  opacity: 0.2;
+}
+.card1 ul li {
+  color: hsl(240, 78%, 98%);
+  opacity: 0.9;
+  font-size: 15px;
+}
+.card1 button {
+  color: hsl(236, 72%, 79%);
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid transparent;
+}
+.card1 button:hover {
+  cursor: pointer;
+  background-color: white;
+  background-image: linear-gradient(
+        to right,
+        hsl(236, 72%, 79%),
+        hsl(237, 63%, 64%));
+  color: hsl(240, 78%, 98%);
+  border: 1px solid hsl(240, 78%, 98%);
+}

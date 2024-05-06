@@ -1,0 +1,28 @@
+@media screen and (max-width: 900px) {
+    body {
+        background-position: left 300px top 0px;
+    }
+    .container{
+        padding: 1rem;
+    }
+    .all-cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .card {
+        width: 100%;
+        flex-grow: 1;
+    }
+    .card1{
+        width: 100%;
+        flex-grow: 1;
+        padding: 2rem;
+    }
+    .switch{
+        gap: 1rem;
+    }
+}

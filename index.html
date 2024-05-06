@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/Responsive.css">
+  <title>Pricing Component with toggle-master </title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Our Pricing</h1>
+      <div class="switch">
+        <p>Annually</p>
+        <div class="toggle-master">
+          <button onclick="changeOne()" id="one"></button>
+          <button onclick="changeTwo()" id="two"></button>
+        </div>
+        <p>Monthly</p>
+      </div>
+    </div>
+    <div class="all-cards">
+      <div class="card">
+        <p>Basic</p>
+        <h1 id="textone">$199.99</h1>
+        <hr>
+        <ul>
+          <li>500 GB Storage</li>
+          <hr>
+          <li>2 Users Allowed</li>
+          <hr>
+          <li>Send up to 3 GB</li>
+          <hr>
+        </ul>
+        <button>Learn More</button>
+      </div>
+      <div class="card1">
+        <p>Professional</p>
+        <h1 id="texttwo">$249.99</h1>
+        <hr>
+        <ul>
+          <li>1 TB Storage</li>
+          <hr>
+          <li>5 Users Allowed</li>
+          <hr>
+          <li>Send up to 10 GB</li>
+          <hr>
+        </ul>
+        <button>Learn More</button>
+        </div>
+      <div class="card">
+        <p>Master</p>
+        <h1 id="textthree">$399.99</h1>
+        <hr>
+        <ul>
+          <li>2 TB Storage</li>
+          <hr>
+          <li>10 Users Allowed</li>
+          <hr>
+          <li>Send up to 20 GB</li>
+          <hr>
+        </ul>
+        <button>Learn More</button>
+        </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
